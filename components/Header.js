@@ -4,7 +4,7 @@ import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone';
 import Avatar from '@material-ui/core/Avatar'
 import { useRouter } from 'next/router';
-import { useState } from 'react'
+import { useState } from 'react';
 
 function Header() {
     const router = useRouter();
@@ -26,8 +26,8 @@ function Header() {
             <h4>Blog</h4>
             <MoreHorizIcon className={styles.icons} />
             <button className={styles.submitPhoto}>Submit a photo</button>
-            <NotificationsNoneIcon />
-            <Avatar/>
+            <NotificationsNoneIcon className={styles.icons}/>
+            <Avatar className={styles.icons} />
         </div>
     )
 }

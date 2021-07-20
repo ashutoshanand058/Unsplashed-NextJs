@@ -3,12 +3,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin:0 15px;
+    padding:0 15px;
+    position:sticky;
+    background:white;
+    top:0;
+    z-index:100;
 }
 .header > img{
     height:60px;
     width:60px;
     object-fit:cover;
+    cursor:pointer;
 }
 .header > form{
     border:1px solid grey;
