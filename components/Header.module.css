@@ -1,0 +1,64 @@
+.header{
+    height:70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 15px;
+}
+.header > img{
+    height:60px;
+    width:60px;
+    object-fit:cover;
+}
+.header > form{
+    border:1px solid grey;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width:60%;
+    height:40px;
+    border-radius:50px;
+    /* background-color:grey; */
+}
+
+.header > form > input,
+.header > form > button{
+    border:none !important;
+    outline:0 !important;
+}
+.header > form > input{
+    border-top-right-radius:50px;
+    border-bottom-right-radius: 50px;
+    flex:0.95;
+    height:100%;
+    font-size:15px;
+    background-color:#f3f3f3;
+}
+.header > form > button{
+    flex:0.05;
+    padding:5px;
+    /* background-color: transparent; */
+    background-color:#f3f3f3;
+    cursor:pointer;
+    border-top-left-radius:50px;
+    border-bottom-left-radius: 50px;
+}
+.header > h4{
+    color:gray;
+    font-weight:500;
+    cursor:pointer;
+}
+.icons{
+    color:gray;
+    cursor:pointer;
+}
+
+.submitPhoto{
+    height:30px;
+    color:#767676;
+    background:#ffffff;
+    padding:0 11px;
+    border:1px solid lightgray;
+    border-radius:5px;
+    cursor:pointer;
+}
